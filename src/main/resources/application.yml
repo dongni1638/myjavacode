@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc
-    username: root
-    password: root123
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE
+    username: test
+    password: test
     deriver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
